@@ -1,3 +1,6 @@
+.menu {
+  display: none; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -19,6 +22,9 @@
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
+
+.show {
+  display: block; }
 
 * {
   box-sizing: border-box; }

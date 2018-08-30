@@ -1,3 +1,7 @@
+.menu {
+    display: none;
+}
+
 // Menu Button
 .menu-btn {
     position: absolute;
@@ -37,4 +41,8 @@
             }
         }
     }
+}
+
+.show {
+    display: block;
 }
