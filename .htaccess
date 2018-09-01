@@ -79,7 +79,7 @@ RewriteCond %{HTTP_USER_AGENT} ^Zeus
 RewriteRule ^.* - [F,L]
 
 //Change default directory page
-DirectoryIndex ./dist/index.html
+DirectoryIndex dist/index.html
 
 //Prevent viewing of .htaccess file
 <Files .htaccess>
