@@ -10,7 +10,7 @@
     .btn-line {
         width: 28px;
         height: 3px;
-        background-color: #fff;
+        background-color: set-text-color($primary-color);
         margin-bottom: 5px;
         @include easeOut;
     }
@@ -118,7 +118,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: white;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
